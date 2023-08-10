@@ -9,12 +9,21 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    float a = 20;
-    float b = -100;
-    float c = 10;
-    float d = b*b - 4*a*c;
-    float x1 = (2*c)/(-b+sqrt(d));
-    float x2 = (2*c)/(-b-sqrt(d));
-    cout << x1 << " " << x2;
+    float a;
+    float b;
+    float c;
+    cout << "Nhap a = ";
+    cin >> a;
+    if (a == 0) cout << "a phai khac 0 \n";
+        else    {
+            cout << "Nhap b = ";
+            cin >> b;
+            cout << "Nhap c = ";
+            cin >> c
+            float d = b*b - 4*a*c;
+            float x1 = (2*c)/(-b+sqrt(d));
+            float x2 = (2*c)/(-b-sqrt(d));
+            cout << x1 << " " << x2;
+                }
     return 0;
 }
