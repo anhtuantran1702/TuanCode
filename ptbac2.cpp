@@ -25,7 +25,8 @@ int main(int argc, const char * argv[]) {
         float d = b*b - 4*a*c;
         if (d<0) {cout << "Phuong trinh vo nghiem\n";
             goto Nhapdulieu;}
-        if (d==0) {cout << "Phuong trinh co nghiem kep \n" << (2*c)/(-b+sqrt(d));}
+        if (d==0) {cout << "Phuong trinh co nghiem kep \n" << (2*c)/(-b+sqrt(d));
+            return 0;}
         float x1 = (2*c)/(-b+sqrt(d));
         float x2 = (2*c)/(-b-sqrt(d));
         cout << "Phuong trinh co 2 nghiem phan biet \n" << x1 << " " << x2;
