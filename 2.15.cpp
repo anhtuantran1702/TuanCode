@@ -12,9 +12,11 @@ int main(int argc, const char * argv[]) {
     float a;
     float b;
     float c;
+    Nhapdulieu:
     cout << "Nhap a = ";
     cin >> a;
-    if (a == 0) cout << "a phai khac 0 \n";
+    if (a == 0) {cout << "a phai khac 0 \n"; 
+                    goto Nhapdulieu;}
         else    {
             cout << "Nhap b = ";
             cin >> b;
